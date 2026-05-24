@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.module_name  = "DxpPush"
   spec.name         = "DxpPush"
-  spec.version      = "1.0.0"
+  spec.version      = "1.0.1"
   spec.summary      = "Dxp Push"
 
   # This description is used to generate tags and improve search results.
@@ -143,7 +143,7 @@ Pod::Spec.new do |spec|
   # spec.dependency 'Masonry'
   # spec.dependency 'MJRefresh'
 
-  spec.dependency 'Firebase/Messaging', '~> 12.0'
+  spec.dependency 'Firebase/Messaging','~> 11.10.0'
 	spec.dependency 'Masonry'
 	spec.dependency 'SDWebImage'
 	spec.dependency 'ZFPlayer', '~> 4.0'
