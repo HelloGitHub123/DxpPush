@@ -142,9 +142,9 @@ static HJNotificationManagement *manager = nil;
 }
 
 // 是否需要登陆
-//- (BOOL)isNeedLogin {
-//    return self.isLogin;
-//}
+- (BOOL)isNeedLogin {
+    return NO;
+}
 
 // 清空重置缓存数据
 - (void)clearNotificationData {
